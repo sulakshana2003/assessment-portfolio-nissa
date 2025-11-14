@@ -3,6 +3,14 @@ import Chapter1Section from "./pages/chapter/Chapter1.jsx";
 import Chapter2Section from "./pages/chapter/Chapter2.jsx";
 import Chapter3Section from "./pages/chapter/Chapter3.jsx";
 import Chapter4Section from "./pages/chapter/Chapter4.jsx";
+import Chapter5Section from "./pages/chapter/Chapter5.jsx";
+import Chapter6Section from "./pages/chapter/Chapter6.jsx";
+import Chapter7Section from "./pages/chapter/Chapter7.jsx";
+import Chapter8Section from "./pages/chapter/Chapter8.jsx";
+import Chapter9Section from "./pages/chapter/Chapter9.jsx";
+import Chapter10Section from "./pages/chapter/Chapter10.jsx";
+import Chapter11Section from "./pages/chapter/Chapter11.jsx";
+
 
 // 🌈 Gradient background + Top Navigation Layout
 export default function AssessmentPortfolio() {
@@ -126,6 +134,91 @@ export default function AssessmentPortfolio() {
               </article>
             );
           }
+          if (c.id === "ch5") {
+            return (
+              <article
+                key="ch5"
+                id="ch5"
+                ref={setRef}
+                className="scroll-mt-24 bg-white shadow-lg border border-gray-200 rounded-2xl p-6 md:p-8 mb-8"
+              >
+                <Chapter5Section />
+              </article>
+            );
+          }
+          if (c.id === "ch6") {
+            return (
+              <article
+                key="ch6"
+                id="ch6"
+                ref={setRef}
+                className="scroll-mt-24 bg-white shadow-lg border border-gray-200 rounded-2xl p-6 md:p-8 mb-8"
+              >
+                <Chapter6Section />
+              </article>
+            );
+          }
+          if (c.id === "ch7") {
+            return (
+              <article
+                key="ch7"
+                id="ch7"
+                ref={setRef}
+                className="scroll-mt-24 bg-white shadow-lg border border-gray-200 rounded-2xl p-6 md:p-8 mb-8"
+              >
+                <Chapter7Section />
+              </article>
+            );
+          }
+          if (c.id === "ch8") {
+            return (
+              <article
+                key="ch8"
+                id="ch8"
+                ref={setRef}
+                className="scroll-mt-24 bg-white shadow-lg border border-gray-200 rounded-2xl p-6 md:p-8 mb-8"
+              >
+                <Chapter8Section />
+              </article>
+            );
+          }
+          if (c.id === "ch9") {
+            return (
+              <article
+                key="ch9"
+                id="ch9"
+                ref={setRef}
+                className="scroll-mt-24 bg-white shadow-lg border border-gray-200 rounded-2xl p-6 md:p-8 mb-8"
+              >
+                <Chapter9Section />
+              </article>
+            );
+          }
+          if (c.id === "ch10") {
+            return (
+              <article
+                key="ch10"
+                id="ch10"
+                ref={setRef}
+                className="scroll-mt-24 bg-white shadow-lg border border-gray-200 rounded-2xl p-6 md:p-8 mb-8"
+              >
+                <Chapter10Section />
+              </article>
+            );
+          }
+          if (c.id === "ch11") {
+            return (
+              <article
+                key="ch11"
+                id="ch11"
+                ref={setRef}
+                className="scroll-mt-24 bg-white shadow-lg border border-gray-200 rounded-2xl p-6 md:p-8 mb-8"
+              >
+                <Chapter11Section />
+              </article>
+            );
+          }
+          
 
           return (
             <article
