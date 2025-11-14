@@ -17,7 +17,7 @@ export default function AssessmentPortfolio() {
   const chapters = useMemo(
     () => [
       { id: "ch1", title: "Introduction to Professional Skills", body: sampleIntro },
-      { id: "ch2", title: "Teamwork & Collaboration", body: "Clear goals, roles, and communication make teamwork effective." },
+      { id: "ch2", title: "CV & Cover Letter", body: "Clear goals, roles, and communication make teamwork effective." },
       { id: "ch3", title: "Communication Skills", body: "7Cs: clear, concise, concrete, correct, coherent, complete, courteous." },
       { id: "ch4", title: "Leadership & Ethics", body: "Leadership blends vision with responsibility." },
       { id: "ch5", title: "Problem Solving", body: "Fishbone, 5-Whys, Pareto analysis help in solving problems." },
@@ -80,6 +80,7 @@ export default function AssessmentPortfolio() {
 
       {/* 🌟 CONTENT AREA */}
       <main className="max-w-6xl mx-auto px-4 md:px-6 pt-8 pb-20">
+        {/*mewa wens nokranuuuu  */}
         {chapters.map((c) => {
           const setRef = (el) => (sectionRefs.current[c.id] = el);
 
@@ -218,7 +219,7 @@ export default function AssessmentPortfolio() {
               </article>
             );
           }
-          
+          {/*mewa wens nokranuuuu  */}
 
           return (
             <article
